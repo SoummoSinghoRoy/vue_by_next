@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Head>
         <title>Vue.js</title>
         <link rel="icon" href="/img/favicon.png" />
@@ -18,27 +18,45 @@ export default function Home() {
         </div>
       </div>
       <div className={`container ${styles.container}`}>
-        <div className="row py-3">
-          <div className="col-lg-4 col-md-4 col-sm-4">
-            <h3 className={`px-4 ${styles.logo_h3}`}>Vue.js</h3>
+        <div className="row py-2">
+          <div className="col-lg-4 col-md-4 col-sm-6">
+            <h3 className={`px-4 mb-0 ${styles.logo_h3}`}>Vue.js</h3>
           </div>
-          <div className="col-lg-8 col-md-8 col-sm-8">
-            <nav className="navbar navbar-expand-lg">
+          <div className="col-lg-8 col-md-8 col-sm-6">
+            <nav className={`navbar navbar-expand-lg ${styles.custom_nav}`}>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+              <i className="fa fa-bars" aria-hidden="true"></i>
               </button>
-              <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <form className="d-flex">
-                  <div className="input-group border rounded-pill">
-                    <div className="input-group-prepend border-0">
-                      <button id="button-addon4" type="button" className="btn btn-link text-info"><i className="fa fa-search"></i></button>
-                    </div>
-                    <input type="search" aria-describedby="button-addon4" className={`form-control bg-none border-0 ${styles.form_control} ${styles.form_control_focus}`} />
+              <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+                <div className={`mx-3 ${styles.main}`}>
+                  <div className={`form-group ${styles.has_search}`}>
+                    <span className={`fa fa-search ${styles.form_control_feedback}`}></span>
+                    <input type="text" className={`form-control ${styles.form_control}`} />
                   </div>
-                </form>
+                </div>
+                <ul className="navbar-nav ml-auto">
+                  <li className="nav-item active">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Learn<span className="sr-only">(current)</span></a>
+                  </li>
+                  <li className="nav-item">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Ecosystem</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Team</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Resources</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Support Vue</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className={`nav-link ${styles.text_item}`} href="#">Translation</a>
+                  </li>
+                </ul>
               </div>
             </nav>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
