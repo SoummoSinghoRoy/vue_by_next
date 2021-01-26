@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Vue.js</title>
         <link rel="icon" href="/img/favicon.png" />
+
       </Head>
       <div className='container-fluid'>
         <div className={`row py-2 text-center ${styles.bg_success}`}>
