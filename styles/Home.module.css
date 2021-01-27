@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 
+  /* layout */
 
-/* Layout */
-.wrapper{
-  margin: 0;
-  padding: 0;
-}
 @media (min-width: 1400px){ .container,
   .container-lg,
   .container-md,
@@ -15,54 +11,49 @@
     max-width: 1783px!important;
   }
   }
-  
-  
-  /* Header */
-  
-  .main {
-    width: 24%;
-  }
-  .has_search .form_control {
-    padding-left: 2.375rem;
-  }
-  .form_control{
-    border: 1px solid #e3e3e3!important;
-    border-radius: 70px!important;
-    height: 29px;
-  }
-  .form_control:focus {
-    color: #212529;
-    background-color: #fff;
-    border-color: darkcyan!important;
-    outline: 0;
-    box-shadow: none!important;
-  }
-  .has_search .form_control_feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 1.8rem;
-    text-align: center;
-    pointer-events: none;
-    color:#e3e3e3;
-  }
-  
-  .logo_h3{
-    font-family: 'Dosis',sans-serif;
-  }
-  .text_item{
-    color: #304455;
-    font-size: 15px;
-  }
-  .text_item:hover{
-    color: #304455;
-  }
 
-  .custom_nav{
-    padding-top: 0!important;
-  }
+  /* component */
+.logo_text{
+  color: rgb(69, 76, 83);
+  font-size: 26px!important;
+  font-family: 'Dosis',sans-serif;
+}
+.toggler{
+  color: rgb(69, 76, 83);
+}
+.has_search .form_control {
+  padding-left: 2.375rem;
+}
+.form_control{
+  border: 1px solid #e3e3e3!important;
+  border-radius: 70px!important;
+  height: 29px;
+}
+.form_control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: darkcyan!important;
+  outline: 0;
+  box-shadow: none!important;
+}
+.has_search .form_control_feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 1.8rem;
+  text-align: center;
+  pointer-events: none;
+  color:#e3e3e3;
+}
+.text_item{
+  color: #304455;
+  font-size: 15px;
+}
+.text_item:hover{
+  color: #304455;
+}
 
 /* Utilities */
 .bg_success{

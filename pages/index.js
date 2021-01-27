@@ -5,61 +5,103 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.wrapper}>
+    <div>
       <Head>
         <title>Vue.js</title>
         <link rel="icon" href="/img/favicon.png" />
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
       </Head>
-      <div className='container-fluid'>
+      <div className="container-fluid">
         <div className={`row py-2 text-center ${styles.bg_success}`}>
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          <div className="col-12 col-lg-12 col-md-12 col-sm-12">
             <span className= {styles.text_one}>You’re browsing the documentation for v2.x and earlier.<a href="https://v3.vuejs.org/" className="text-decoration-none text-light fw-bold"> Click Here</a> for v3.x documentation.</span>
           </div>
         </div>
       </div>
-      <div className={`container ${styles.container}`}>
-        <div className="row py-2">
-          <div className="col-lg-4 col-md-4 col-sm-6">
-            <h3 className={`px-4 mb-0 ${styles.logo_h3}`}>Vue.js</h3>
-          </div>
-          <div className="col-lg-8 col-md-8 col-sm-6">
-            <nav className={`navbar navbar-expand-lg ${styles.custom_nav}`}>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <i className="fa fa-bars" aria-hidden="true"></i>
-              </button>
-              <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
-                <div className={`mx-3 ${styles.main}`}>
-                  <div className={`form-group ${styles.has_search}`}>
-                    <span className={`fa fa-search ${styles.form_control_feedback}`}></span>
-                    <input type="text" className={`form-control ${styles.form_control}`} />
-                  </div>
-                </div>
-                <ul className="navbar-nav ml-auto">
-                  <li className="nav-item active">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Learn<span className="sr-only">(current)</span></a>
-                  </li>
-                  <li className="nav-item">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Ecosystem</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Team</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Resources</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Support Vue</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className={`nav-link ${styles.text_item}`} href="#">Translation</a>
-                  </li>
+      <nav className="navbar navbar-expand-lg">
+        <div className={`container d-flex ${styles.container}`}>
+          <a className={`navbar-brand me-auto pt-0 ${styles.logo_text}`} href="#">Vue.Js</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i className="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div className={`form-group ms-auto me-4 mt-3 mt-lg-0 mt-md-0 ${styles.has_search}`}>
+              <span className={`fa fa-search ${styles.form_control_feedback}`}></span>
+              <input type="text" className={`form-control ${styles.form_control}`} />
+            </div>
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item dropdown">
+                <a className={`nav-link dropdown-toggle ${styles.text_item}`} href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Learn<span className="sr-only">(current)</span></a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li className="dropdown-item fw-bold text-secondary">Documentation</li>
+                  <li><a className="dropdown-item" href="#">Guide</a></li>
+                  <li><a className="dropdown-item" href="#">API</a></li>
+                  <li><a className="dropdown-item" href="#">Style Guide</a></li>
+                  <li><a className="dropdown-item" href="#">Examples</a></li>
+                  <li><a className="dropdown-item" href="#">Cook Book</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li className="dropdown-item fw-bold text-secondary">Video Courses</li>
+                  <li><a className="dropdown-item" href="#">Vue Mastery</a></li>
+                  <li><a className="dropdown-item" href="#">Vue School</a></li>
                 </ul>
-              </div>
-            </nav>
-          </div> 
+              </li>
+              <li className="nav-item dropdown">
+                <a className={`nav-link dropdown-toggle ${styles.text_item}`} href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Ecosystem</a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li className="dropdown-item fw-bold text-secondary">Help</li>
+                  <li><a className="dropdown-item" href="#">Forum</a></li>
+                  <li><a className="dropdown-item" href="#">Chat</a></li>
+                  <li><a className="dropdown-item" href="#">Meetups</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li className="dropdown-item fw-bold text-secondary">Tooling</li>
+                  <li><a className="dropdown-item" href="#">Dev Tools</a></li>
+                  <li><a className="dropdown-item" href="#">Vue CLI</a></li>
+                  <li><a className="dropdown-item" href="#">Vue Loader</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li className="dropdown-item fw-bold text-secondary">Core Libraries</li>
+                  <li><a className="dropdown-item" href="#">Vue Router</a></li>
+                  <li><a className="dropdown-item" href="#">Vuex</a></li>
+                  <li><a className="dropdown-item" href="#">Vue Server Renderer</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li className="dropdown-item fw-bold text-secondary">News</li>
+                  <li><a className="dropdown-item" href="#">Weekly News</a></li>
+                  <li><a className="dropdown-item" href="#">Roadmap</a></li>
+                  <li><a className="dropdown-item" href="#">Events</a></li>
+                  <li><a className="dropdown-item" href="#">Twitter</a></li>
+                  <li><a className="dropdown-item" href="#">Blog</a></li>
+                  <li><a className="dropdown-item" href="#">Jobs</a></li>
+                  <li><a className="dropdown-item" href="#">Dev Community</a></li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a className={`nav-link ${styles.text_item}`} href="#">Team</a>
+              </li>
+              <li className="nav-item dropdown">
+                <a className={`nav-link dropdown-toggle ${styles.text_item}`} href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Resources</a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a className="dropdown-item" href="#">Partners</a></li>
+                  <li><a className="dropdown-item" href="#">Themes</a></li>
+                  <li><a className="dropdown-item" href="#">Awesome Vue</a></li>
+                  <li><a className="dropdown-item" href="#">Browse Package for Vue</a></li>
+                </ul>
+              </li>
+              <li className="nav-item dropdown">
+                <a className={`nav-link dropdown-toggle ${styles.text_item}`} href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Support Vue</a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a className="dropdown-item" href="#">One Time Donations</a></li>
+                  <li><a className="dropdown-item" href="#">Recurring Pledges</a></li>
+                  <li><a className="dropdown-item" href="#">T Shirt Shop</a></li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a className={`nav-link ${styles.text_item}`} href="#">Translation</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
   )
 }
