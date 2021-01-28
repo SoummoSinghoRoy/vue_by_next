@@ -10,10 +10,16 @@
   .container-xxl {
     max-width: 1783px!important;
   }
-  }
+}
+
 
   /* component */
 .logo_text{
+  color: rgb(69, 76, 83);
+  font-size: 26px!important;
+  font-family: 'Dosis',sans-serif;
+}
+.logo_text:hover{
   color: rgb(69, 76, 83);
   font-size: 26px!important;
   font-family: 'Dosis',sans-serif;
@@ -51,6 +57,10 @@
   color: #304455;
   font-size: 15px;
 }
+
+.mobile_text_item{
+  font-size: 13.5px;
+}
 .text_item:hover{
   color: #304455;
 }
@@ -63,6 +73,7 @@
   color: #d6ffec;
   font-size: 15px;
 }
+
 
 /* .container {
   min-height: 100vh;
