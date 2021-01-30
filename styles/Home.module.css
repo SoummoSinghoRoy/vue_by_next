@@ -57,14 +57,15 @@
   color: #304455;
   font-size: 15px;
 }
-
-.mobile_text_item{
-  font-size: 13.5px;
-}
 .text_item:hover{
   color: #304455;
 }
-
+.mobile_text_item{
+  font-size: 13.5px;
+}
+.mobile_text_item span:hover{
+  border-bottom: 2px solid darkgreen;
+}
 /* Utilities */
 .bg_success{
   background: #42b983;

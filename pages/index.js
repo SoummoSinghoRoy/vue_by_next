@@ -120,84 +120,86 @@ export default function Home() {
           <ul className="nav flex-column mb-2 mb-lg-0 ps-4">
             <li className={`nav-item mt-2 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Learn</span>
               <ul className="nav">
-                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Documentation</span>
+                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Documentation</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Guide</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>API</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Style Guide</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Examples</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Cookbook</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Guide</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>API</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Style Guide</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Examples</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Cookbook</span></a></li>
                   </ul>
                 </li>
               </ul>
               <ul className="nav">
-                <li className= {`nav-item ms-3 ${styles.mobile_text_item}`}> <span className="text-secondary">Video Courses</span>
+                <li className= {`nav-item ms-3 ${styles.mobile_text_item}`}><span className="text-secondary">Video Courses</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue Mastery</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue School</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vue Mastery</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vue School</span></a></li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li className={`nav-item  ${styles.mobile_text_item}`}><span className="text-secondary">Ecosystem</span>
               <ul className="nav">
-                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Help</span>
+                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Help</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Forum</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Chat</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Meetups</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Forum</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Chat</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Meetups</span></a></li>
                   </ul>
                 </li>
               </ul>
               <ul className="nav">
-                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Tooling</span>
+                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Tooling</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Dev Tools</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue CLI</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue Loader</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Dev Tools</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vue CLI</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vue Loader</span></a></li>
                   </ul>
                 </li>
               </ul>
               <ul className="nav">
-                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Core Libraries</span>
+                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Core Libraries</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue Router</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vuex</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Vue Server Renderer</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vue Router</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vuex</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Vuex</span></a></li>
                   </ul>
                 </li>
               </ul>
               <ul className="nav">
-                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">News</span>
+                <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}><span className="text-secondary">News</span>
                   <ul className="nav flex-column">
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Weekly News</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Roadmap</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Events</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Twitter</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Blog</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Jobs</a></li>
-                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Dev Community</a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Weekly News</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Roadmap</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Events</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Twitter</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Blog</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Jobs</span></a></li>
+                    <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Dev Community</span></a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li className="nav-item"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Team</a></li>
-            <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Resources</span>
+            <li className={`nav-item mt-2 py-2 ${styles.mobile_text_item}`}><a href="#" className={`text-decoration-none text-secondary ${styles.mobile_text_item}`}> <span>Team</span></a>
+            </li>
+            <li className= {`nav-item  py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Resources</span>
               <ul className="nav flex-column">
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Partners</a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Themes</a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Awesome Vue</a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Browse Packages for Vue</a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Partners</span></a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Themes</span></a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Awesome Vue</span></a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Browse Packages for Vue</span></a></li>
               </ul>
             </li>
-            <li className= {`nav-item ms-3 py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Support Vue</span>
+            <li className= {`nav-item py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Support Vue</span>
               <ul className="nav flex-column">
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>One-time Donations</a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Recurring Pledges</a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>T-shirt Shop</a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>One-time Donations</span> </a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Recurring Pledges</span> </a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>T-shirt Shop</span></a></li>
               </ul>
             </li>
-            <li className="nav-item"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}>Translate</a></li>
+            <li className= {`nav-item py-2 ${styles.mobile_text_item}`}><span className="text-secondary">Translate</span> 
+            </li>
           </ul>
         </div>
       </div>
