@@ -27,7 +27,7 @@ export default function Home() {
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <i className="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <div className={`form-group ms-auto me-4 mt-3 mt-lg-0 mt-md-0 ${styles.has_search}`}>
                 <span className={`fa fa-search ${styles.form_control_feedback}`}></span>
                 <input type="text" className={`form-control ${styles.form_control}`} />
@@ -42,7 +42,7 @@ export default function Home() {
                     <li><a className="dropdown-item" href="#">Style Guide</a></li>
                     <li><a className="dropdown-item" href="#">Examples</a></li>
                     <li><a className="dropdown-item" href="#">Cook Book</a></li>
-                    <li><hr class="dropdown-divider" /></li>
+                    <li><hr className="dropdown-divider" /></li>
                     <li className="dropdown-item fw-bold text-secondary">Video Courses</li>
                     <li><a className="dropdown-item" href="#">Vue Mastery</a></li>
                     <li><a className="dropdown-item" href="#">Vue School</a></li>
@@ -60,12 +60,12 @@ export default function Home() {
                     <li><a className="dropdown-item" href="#">Dev Tools</a></li>
                     <li><a className="dropdown-item" href="#">Vue CLI</a></li>
                     <li><a className="dropdown-item" href="#">Vue Loader</a></li>
-                    <li><hr class="dropdown-divider" /></li>
+                    <li><hr className="dropdown-divider" /></li>
                     <li className="dropdown-item fw-bold text-secondary">Core Libraries</li>
                     <li><a className="dropdown-item" href="#">Vue Router</a></li>
                     <li><a className="dropdown-item" href="#">Vuex</a></li>
                     <li><a className="dropdown-item" href="#">Vue Server Renderer</a></li>
-                    <li><hr class="dropdown-divider" /></li>
+                    <li><hr className="dropdown-divider" /></li>
                     <li className="dropdown-item fw-bold text-secondary">News</li>
                     <li><a className="dropdown-item" href="#">Weekly News</a></li>
                     <li><a className="dropdown-item" href="#">Roadmap</a></li>
@@ -194,7 +194,7 @@ export default function Home() {
             <li className= {`nav-item py-2 ${styles.mobile_text_item}`}> <span className="text-secondary">Support Vue</span>
               <ul className="nav flex-column">
                 <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>One-time Donations</span> </a></li>
-                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Recurring Pledges</span> </a></li>
+                <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>Recurring Pledges</span></a></li>
                 <li className="nav-item ms-3"><a href="#" className={`nav-link text-secondary ${styles.mobile_text_item}`}><span>T-shirt Shop</span></a></li>
               </ul>
             </li>
